@@ -5,7 +5,7 @@
  */
 package lib.interfaces;
 
-import lib.datamodel.User;
+import lib.dataModel.User;
 import lib.exceptions.IncorrectUserException;
 import lib.exceptions.IncorrectPasswordException;
 import lib.exceptions.IncorrectEmailException;

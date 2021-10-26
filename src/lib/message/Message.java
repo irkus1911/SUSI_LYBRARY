@@ -5,7 +5,7 @@
  */
 package lib.message;
 import java.io.Serializable;
-import lib.datamodel.User;
+import lib.dataModel.User;
 /**
  * Esta clase encapsula el objeto user, el método y el mensaje a enviar.
  * @author Adrián Franco.
