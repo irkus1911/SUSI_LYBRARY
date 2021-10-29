@@ -13,10 +13,14 @@ import lib.dataModel.User;
 public class Message implements Serializable{
     
     private User user;
-    private enum msg{
-    SIGNUP, SIGNIN, OK, INCORRECTUSEREXCEPTION, INCORRECTPASSWORDEXCEPTION,
-    INCORRECTEMAILEXCEPTION, USERDONTEXISTEXCEPTION,USEREXISTEXCEPTION,
-    PASSWORDDONTMATCHEXCEPTION, CONNECTEXCEPTION, TOOMANYUSERSEXCEPTION;
+    private Msg msg;
+
+    public Msg getMsg() {
+        return msg;
+    }
+
+    public void setMsg(Msg msg) {
+        this.msg = msg;
     }
 /**
  * Crea un Mensaje a partir del Usuario recibido.
