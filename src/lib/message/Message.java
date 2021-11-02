@@ -22,12 +22,9 @@ public class Message implements Serializable{
     public void setMsg(Msg msg) {
         this.msg = msg;
     }
-/**
- * Crea un Mensaje a partir del Usuario recibido.
- * @param user Parametro tipo User importado desde fuera.
- */
-    public Message(User user) {
-        this.user = user;
+
+    public Message() {
+      
     }
     
     public User getUser() {
